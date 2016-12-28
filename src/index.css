@@ -1,0 +1,119 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  background-image: url(https://hd.unsplash.com/photo-1452251889946-8ff5ea7b27ab);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+#root{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-flow: center;
+
+}
+.app{
+	width: 90%;
+}
+.header{
+	font-family: 'Dancing Script', cursive;
+	font-size: 250%;
+	background-color: #FFEEE7;
+	align-self: center;
+	width: 80%;
+	border-bottom: 
+}
+.info{
+	background-color: #FFEEE7;
+	opacity: 0.8;
+	display: flex;
+	flex-direction: column;
+	margin-top: 5%;
+	width: 80%;
+	height: 500px;
+	align-items: center;
+	/*padding-bottom: 150px;
+	padding-left: 100px;
+	padding-right: 100px;*/
+
+
+}
+
+.title{
+	background-color: #FBB448;
+
+	width: 80%;
+	margin: auto;
+	justify-content:  center;
+	font-family: 'Pacifico', cursive;
+	/*align-self: center;*/
+}
+h1{
+	text-align: center;
+	border-bottom: #FECEA8;
+}
+h3{
+	text-align: center;
+}
+
+.search{
+	background-color: #E3670C;
+	font-family: 'Pacifico', cursive;
+
+}
+.h1{
+	font-size: 350%;
+	color: #45171D;
+}
+
+.p1{
+		font-size: 200%;
+		text-align: center;
+		color:#E84A5F;
+
+}
+.random {
+	background-color: #CC3D0B;
+	margin:auto;
+	
+	align-content: center;
+
+}
+button{
+	align-self: center;
+}
+.show{
+	background-color: #F05941;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-flow: center;
+	flex-direction: column;
+	width: 80%;
+	padding: 30px;
+	margin-top: 50px;
+
+}
+.pic{
+	align-self: center;
+	width: 650px;
+	height: 600px;
+	margin-top: 20px;
+
+}
+.ingredients{
+	display: inline-block;
+	float: left;
+	text-align: left;
+	font-size: 14px;	
+	margin-top: 20px;
+}
+.instructions{
+	display: inline-block;
+	float: right;
+	text-align: left;
+	font-size: 14px;	
+}
